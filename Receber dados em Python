@@ -1,0 +1,18 @@
+Código para recebimento de dados em Python e adicioná-los a um Array
+
+matricula = ''
+nome = ''
+dados = []
+
+CPF = []
+dg = []
+matricula = input('Digite o número do cartão do SUS :')
+dados.append(matricula)
+nome = input('Digite o nome do paciente :')
+dados.append(nome)
+cpf = input('Digite o CPF do paciente :')
+CPF.append(cpf)
+diagnostico = input('Digite o diagnostico do paciente :')
+dg.append(diagnostico)
+dados.append(CPF)
+dados.append(dg)
